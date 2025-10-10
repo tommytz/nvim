@@ -30,6 +30,7 @@ return {
     appearance = {
       -- 'mono' (default) for 'Nerd Font Mono' or 'normal' for 'Nerd Font'
       -- Adjusts spacing to ensure icons are aligned
+      -- Note: The font I like to use is FiraMono Nerd Font from "https://github.com/ryanoasis/nerd-fonts/releases/download/v3.4.0/FiraMono.zip"
       nerd_font_variant = 'mono'
     },
 

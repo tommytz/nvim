@@ -1,5 +1,6 @@
 require("tommytz.remap")
 require("config.lazy")
+require("numbertoggle")
 
 -- Tabs and indentation
 vim.opt.expandtab = true
