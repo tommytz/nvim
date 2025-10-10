@@ -20,6 +20,7 @@ vim.cmd [[colorscheme retrobox]]
 
 -- LSP
 vim.lsp.enable("luals")
+vim.lsp.enable("gopls")
 
 vim.diagnostic.config({
     virtual_text = true
