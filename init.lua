@@ -1,12 +1,13 @@
 require("tommytz.remap")
 require("config.lazy")
-require("numbertoggle")
 
 -- Tabs and indentation
 vim.opt.expandtab = true
 vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 
+vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.hlsearch = false
 vim.opt.smartcase = true
 vim.opt.ignorecase = true
