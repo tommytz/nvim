@@ -15,3 +15,10 @@ vim.opt.signcolumn = "yes"
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
 vim.cmd [[colorscheme retrobox]]
+
+-- LSP
+vim.lsp.enable("luals")
+
+vim.diagnostic.config({
+    virtual_text = true
+})
