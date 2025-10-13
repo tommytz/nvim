@@ -16,7 +16,7 @@ vim.opt.mouse = "nvi"
 vim.opt.signcolumn = "yes"
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
-vim.cmd [[colorscheme retrobox]]
+vim.cmd("colorscheme retrobox")
 
 -- LSP
 vim.lsp.enable("luals")
