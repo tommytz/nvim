@@ -23,6 +23,7 @@ vim.opt.termguicolors = true
 vim.cmd("colorscheme retrobox")
 vim.opt.wrap = false
 vim.opt.confirm = true
+vim.opt.scrolloff = 10
 
 -- LSP
 vim.lsp.enable("luals")
