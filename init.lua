@@ -20,16 +20,10 @@ vim.opt.mouse = "a"
 vim.opt.signcolumn = "yes"
 vim.opt.swapfile = false
 vim.opt.termguicolors = true
-vim.cmd.colorscheme "catppuccin-mocha"
+vim.cmd.colorscheme "catppuccin"
 vim.opt.wrap = false
 vim.opt.confirm = true
 vim.opt.scrolloff = 10
-
--- transparent background
-vim.api.nvim_set_hl(0, 'Normal', { bg = 'none' })
-vim.api.nvim_set_hl(0, 'NormalFloat', { bg = 'none' })
-vim.api.nvim_set_hl(0, 'FloatBorder', { bg = 'none' })
-vim.api.nvim_set_hl(0, 'Pmenu', { bg = 'none' })
 
 -- LSP
 vim.lsp.enable("luals")
